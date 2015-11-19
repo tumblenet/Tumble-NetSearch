@@ -120,6 +120,6 @@ footer {
    height:60px;   /* Height of the footer */
 }
 
-div.gsc-control-cse form.gsc-search-box {
+#gsc-input {
       width: 10%;
     }
