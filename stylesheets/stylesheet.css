@@ -120,6 +120,6 @@ footer {
    height:60px;   /* Height of the footer */
 }
 
-#search #searchR {
-  width:50px;
-}
+div.gsc-control-cse form.gsc-search-box {
+      width: 300px;
+    }
