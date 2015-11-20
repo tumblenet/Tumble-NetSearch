@@ -1,4 +1,4 @@
-body {
+body #search {
   margin: 0;
   padding: 0;
   font-family: 'Droid Serif', serif;
@@ -96,12 +96,12 @@ navbar li li {
 KEEP FOOOTER AT BAY
 *********************************/
 html,
-body {
+body #search {
    margin:0;
    padding:0;
    height:100%;
 }
-body {
+body #search
    min-height:100%;
    position:relative;
    height:100%;
