@@ -6,6 +6,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://search.tumblegamer.tk/stylesheets/stylesheet.css">
+		<!-- Put the following javascript before the closing </head> tag. -->
+		<script>
+		  (function() {
+		    var cx = '000888210889775888983:8mn4x_mf-yg';
+		    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//www.google.com/cse/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
 	</head>
 	<body><div class="content">
 		<center>
@@ -55,9 +65,23 @@
 				        src="//www.google.com/cse/brand?form=cse-search-box-form-id&inputbox=cse-search-input-box-id">
 				</script>
 				<!-- End of Google branding watermark -->
-				<div>
-					<gcse:searchresults-only>
-				</div>
+				
+				<!-- Element code snippet -->
+				<script type="text/javascript">
+				  function executeQuery() {
+				    var input = document.getElementById('cse-search-input-box-id');
+				    var element = google.search.cse.element.getElement('searchresults-only0');
+				    if (input.value == '') {
+				      element.clearAllResults();
+				    } else {
+				      element.execute(input.value);
+				    }
+				    return false;
+				  }
+				</script>
+				
+				<!-- Place this tag where you want the search results to render -->
+				<gcse:searchresults-only></gcse:searchresults-only>
 			</div>
 		<center>
 			<footer>
@@ -65,14 +89,5 @@
 			</footer>
 		</center>
 	</div>
-	<script>
-	(function() {
-	  var cx = '013719652570820795841:u9-nv-5eywe'; // Insert your own Custom Search engine ID here
-	  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-	  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
-	      '//cse.google.com/cse.js?cx=' + cx;
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-	})();
-	</script>
 	</body>
 </html>
