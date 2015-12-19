@@ -7,7 +7,7 @@ body #search {
 
 h1 h2 h3 h4 h5 h6 {
   font-family: 'Oswald', sans-serif;
-  color: #ff0000;
+  color: #f22613;
 }
 
 navbar ul {
@@ -33,7 +33,7 @@ navbar a {
 }
 
 navbar a:hover {
-  background-color: #fff000;
+  background-color: #f7ca18;
 }
 
 navbar a.active {
