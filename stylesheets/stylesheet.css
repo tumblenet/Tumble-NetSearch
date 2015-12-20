@@ -101,17 +101,17 @@ navbar li li {
 KEEP FOOOTER AT BAY
 *********************************/
 html,
-body #search {
+body.search {
    margin:0;
    padding:0;
    height:100%;
 }
-body #search {
+body.search {
    min-height:100%;
    position:relative;
    height:100%;
 }
-header {
+body.search > header {
    padding:10px;
 }
 #main {
