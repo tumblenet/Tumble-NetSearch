@@ -46,6 +46,7 @@ navbar a.active {
 /* Sub Menus */
 navbar li li {
   font-size: .8em;
+  background-color: #ffffff;
 }
 
 /*******************************************
