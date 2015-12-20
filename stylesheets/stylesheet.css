@@ -101,12 +101,12 @@ navbar li li {
 KEEP FOOOTER AT BAY
 *********************************/
 html,
-body.search {
+body.search, navbar.search {
    margin:0;
    padding:0;
    height:100%;
 }
-body.search {
+body.search, navbar.search {
    min-height:100%;
    position:relative;
    height:100%;
