@@ -33,11 +33,13 @@ navbar a {
 }
 
 navbar a:hover {
-  background-color: #f7ca18;
+  color: #f7ca18;
+  background-color: #f22613;
 }
 
 navbar a.active {
-  color: #ff0000;
+  color: #f22613;
+  background-color: #f7ca18;
   cursor: default;
 }
 
