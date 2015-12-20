@@ -111,14 +111,14 @@ body.search {
    position:relative;
    height:100%;
 }
-body.search > header {
+body.search > div > center > header {
    padding:10px;
 }
-#main {
+body.search > div > center > #main {
    padding:10px;
    padding-bottom:60px;   /* Height of the footer */
 }
-footer {
+body.search > div > center > footer {
    position:absolute;
    bottom:0;
    width:100%;
