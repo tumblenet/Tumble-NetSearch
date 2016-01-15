@@ -1,1 +1,1 @@
-$.html("http://search.tumblenet.tk/tumble-bar.html");
+$$( "#TumbleBar" ).load("http://search.tumblenet.tk/tumble-bar.html");
