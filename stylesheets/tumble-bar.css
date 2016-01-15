@@ -1,3 +1,7 @@
+#TumbleBar {
+    text-align: center;
+}
+
 #TumbleBar > ul {
     list-style-type: none;
     margin: 0;
