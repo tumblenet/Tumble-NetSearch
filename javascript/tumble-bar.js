@@ -1,3 +1,3 @@
-$.get("http://search.tumblenet.tk/tumble-bar.html", function(data) {
-  $("#tumble").html(data);
+$(document).ready(function() {
+    $('#tumble').load('http://search.tumblenet.tk/tumble-bar.html');
 });
