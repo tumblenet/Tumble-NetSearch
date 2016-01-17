@@ -1,2 +1,1 @@
-$(".tumble").load("tumble-bar.html");
-//, function () {/* callback if needed */}
+$('.tumble').load('tumble-bar.html', function () {/* callback if needed */});
