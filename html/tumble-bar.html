@@ -78,13 +78,15 @@ a {text-decoration: none;}
 
 $(document).ready(function() {
         $(".tumble").load("http://search.tumblenet.tk/html/TumbleBar.html");
-        
-        
-        $(".toggleMenu").css("display", "none");
-	    $(".tumblenav li").hover(function() {
-	    	$(this).addClass('hover');
-    	}, function() {
-    		$(this).removeClass('hover');
-    	});
+});
+</script>
+<script>
+	$(document).ready(function() {
+	$(".toggleMenu").css("display", "none");
+	$(".nav li").hover(function() {
+	 	$(this).addClass('hover');
+	}, function() {
+		$(this).removeClass('hover');
+	});
 });
 </script>
