@@ -1,51 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<title>Tumblegamer WebSearch</title>
-		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-		
-		<link rel="stylesheet" href="http://search.tumblenet.tk/stylesheets/style.css">
-		<link rel="stylesheet" href="http://search.tumblenet.tk/stylesheets/tumble-bar.css">
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="http://search.tumblenet.tk/javascript/tumble-bar.js"></script>
-		
-		<!-- Put the following javascript before the closing </head> tag. -->
-		<script>
-		  (function() {
-		    var cx = '013719652570820795841:u9-nv-5eywe';
-		    var gcse = document.createElement('script');
-		    gcse.type = 'text/javascript';
-		    gcse.async = true;
-		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-		        '//cse.google.com/cse.js?cx=' + cx;
-		    var s = document.getElementsByTagName('script')[0];
-		    s.parentNode.insertBefore(gcse, s);
-		  })();
-		</script>
-	</head>
-	<body><div class="tumble">Loading TumbleBar...</div>
-		<div class="content">
-			<center>
-				<header>
-					
-				</header>
-				<main>
-					<img class="Logo" src="https://goo.gl/wKMBwm" height="92" alt="TumbleGamer">					<gcse:searchbox-only></gcse:searchbox-only>
-					<br>
-					<br>
-					<br>
-					<br>
-					<p><strong>New:</strong><a href="https://github.com/tumblegamer/Tumble-NetBrowse/blob/master/download/Tumble%20NetBrowse.exe?raw=true">Alpha Test Tumble NetBrowse</a>.</p>
-				</main>
-				<footer>
-					© 2015 Tumblegamer - <a href="http://tumblenet.tk">Tumblegamer Home</a> - <a href="http://tumblenet.tk/about/">About Tumblegamer</a> - Tumble NetSearch Alpha (<a href="http://search.tumblenet.tk/about">about</a>)
-				</footer>
-			</center>
-		</div>
-		
-	</body>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+        $("#tumble").load("http://search.tumblenet.tk/tumble-bar.html");
+});
+</script>
+</head>
+<body>
+
+<div id="tumble"></div>
+
+<button>Get External Content</button>
+
+</body>
 </html>
