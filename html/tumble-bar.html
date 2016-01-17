@@ -1,74 +1,65 @@
 <style>
-body {margin: 0;}
-
-ul.tumblenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+a {text-decoration: none;}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
 }
-
-ul.tumblenav li {float: left;}
-
-ul.tumblenav li a {
+.toggleMenu {
+    display:  none;
+    background: #666;
+    padding: 10px 15px;
+    color: #fff;
+}
+.nav {
+    list-style: none;
+     *zoom: 1;
+     background:#175e4c;
+     position: relative;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+    color:#fff;
+    *zoom: 1;
+}
+.nav > li {
+    float: left;
+    border-top: 1px solid #104336;
+    z-index: 200;
+}
+.nav > li > a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-
-ul.tumblenav li a:hover:not(.active) {background-color: #111;}
-
-ul.tumblenav li a.active {background-color: #4CAF50;}
-
-ul.tumblenav ul.right {
-    float: right;
-    list-style-type: none;
-}
-
-@media screen and (max-width: 600px){
-    ul.tumblenav ul.right, 
-    ul.tumblenav li {float: none;}
-}
-
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #111;
-}
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
+.nav li ul {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: -9999px;
+    z-index: 100;
 }
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.nav li li a {
     display: block;
+    background: #1d7a62;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #175e4c;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.nav li li li a {
+    background:#249578;
+    z-index:200;
+    border-top: 1px solid #1d7a62;
 }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
