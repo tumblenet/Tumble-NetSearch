@@ -1,35 +1,3 @@
-nav.TumbleBar > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#TumbleBar {
+    background:#000000;
 }
-nav.TumbleBar {
-   margin:200px auto;
-   width:430px;
-   }
- 
-nav.TumbleBar ul {
-   list-style:none;
-   background-color:#64abfb;
-   }
- 
-nav.TumbleBar ul li {
-   display:inline-block;
-   line-height:44px;
-   }
- 
-nav.TumbleBar ul li a {
-   margin:10px;
-   color:#FFF;
-   padding:4px;
-   font-size:20px;
-   text-decoration:none;
-   }
- 
-nav.TumbleBar ul li a:hover {
-   border-bottom:3px #FFF solid;
-   }
- 
-#nav ul li .active {
-   border-bottom:3px #FFF solid;
-   }
