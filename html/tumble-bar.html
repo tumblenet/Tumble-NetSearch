@@ -1,76 +1,42 @@
 <style>
-body, nav, ul, li, a  {margin: 0; padding: 0;}
-body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-a {text-decoration: none;}
-.TumbleBar {
-    width: 90%;
-    max-width: 900px;
-    margin: 10px auto;
+#nav
+{
+    /* container */
 }
-.toggleMenu {
-    display:  none;
-    background: #666;
-    padding: 10px 15px;
-    color: #fff;
-}
-.tumblenav {
-    list-style: none;
-     *zoom: 1;
-     background:#175e4c;
-     position: relative;
-}
-.tumblenav:before,
-.tumblenav:after {
-    content: " "; 
-    display: table; 
-}
-.tumblenav:after {
-    clear: both;
-}
-.tumblenav ul {
-    list-style: none;
-    width: 9em;
-}
-.tumblenav a {
-    padding: 10px 15px;
-    color:#fff;
-    *zoom: 1;
-}
-.tumblenav > li {
-    float: left;
-    border-top: 1px solid #104336;
-    z-index: 200;
-}
-.tumblenav > li > a {
-    display: block;
-}
-.tumblenav li ul {
-    position: absolute;
-    left: -9999px;
-    z-index: 100;
-}
-.tumblenav li li a {
-    display: block;
-    background: #1d7a62;
-    position: relative;
-    z-index:100;
-    border-top: 1px solid #175e4c;
-}
-.tumblenav li li li a {
-    background:#249578;
-    z-index:200;
-    border-top: 1px solid #1d7a62;
-}
-.tumblenav li {
-    position: relative;
-}
-.tumblenav > li.hover > ul {
-    left: 0;
-}
-.tumblenav li li.hover ul {
-    left: 100%;
-    top: 0;
-}
+    #nav > a
+    {
+        display: none;
+    }
+    #nav li
+    {
+        position: relative;
+    }
+ 
+    /* first level */
+ 
+    #nav > ul
+    {
+        height: 3.75em;
+    }
+        #nav > ul > li
+        {
+            width: 25%;
+            height: 100%;
+            float: left;
+        }
+ 
+    /* second level */
+ 
+    #nav li ul
+    {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+        #nav li:hover ul
+        {
+            display: block;
+        }
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -79,15 +45,5 @@ a {text-decoration: none;}
 
 $(document).ready(function() {
         $(".tumble").load("http://search.tumblenet.tk/html/TumbleBar.html");
-});
-</script>
-<script>
-	$(document).ready(function() {
-	$(".toggleMenu").css("display", "none");
-	$(".nav li").hover(function() {
-	 	$(this).addClass('hover');
-	}, function() {
-		$(this).removeClass('hover');
-	});
 });
 </script>
