@@ -2,7 +2,7 @@
 body, nav, ul, li, a  {margin: 0; padding: 0;}
 body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 a {text-decoration: none;}
-.container {
+.TumbleBar {
     width: 90%;
     max-width: 900px;
     margin: 10px auto;
@@ -13,50 +13,50 @@ a {text-decoration: none;}
     padding: 10px 15px;
     color: #fff;
 }
-.nav {
+.tumblenav {
     list-style: none;
      *zoom: 1;
      background:#175e4c;
      position: relative;
 }
-.nav:before,
-.nav:after {
+.tumblenav:before,
+.tumblenav:after {
     content: " "; 
     display: table; 
 }
-.nav:after {
+.tumblenav:after {
     clear: both;
 }
-.nav ul {
+.tumblenav ul {
     list-style: none;
     width: 9em;
 }
-.nav a {
+.tumblenav a {
     padding: 10px 15px;
     color:#fff;
     *zoom: 1;
 }
-.nav > li {
+.tumblenav > li {
     float: left;
     border-top: 1px solid #104336;
     z-index: 200;
 }
-.nav > li > a {
+.tumblenav > li > a {
     display: block;
 }
-.nav li ul {
+.tumblenav li ul {
     position: absolute;
     left: -9999px;
     z-index: 100;
 }
-.nav li li a {
+.tumblenav li li a {
     display: block;
     background: #1d7a62;
     position: relative;
     z-index:100;
     border-top: 1px solid #175e4c;
 }
-.nav li li li a {
+.tumblenav li li li a {
     background:#249578;
     z-index:200;
     border-top: 1px solid #1d7a62;
