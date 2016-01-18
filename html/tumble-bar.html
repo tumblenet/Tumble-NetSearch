@@ -69,6 +69,21 @@ a, button {
 .nav li:nth-child(6n+6) {
 	background: rgb(21, 40, 54);
 }
+
+@media (min-width: 50em) {
+
+	/* Transforms the list into a horizontal navigation */
+	.nav li {
+		float: left;
+		width: 16.66666666666667%;
+		text-align: center;
+		transition: border .5s;
+	}
+
+	.nav a {
+		display: block;
+		width: auto;
+	}
 </style>
 
 <script>
