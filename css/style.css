@@ -4,13 +4,12 @@ img.logo {
 div.logo {
     background-color: #000;
     width: 80%;
-    height: 26%;
+    height: 13%;
     position: absolute;
-    bottom: 71%;
+    bottom: 86%;
     left: 19%;
 }
-    
-}
+
 
 @media only screen and (max-width: 768px) {
 div.logo {
