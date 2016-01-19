@@ -2,6 +2,9 @@ img.logo {
     max-height: 100%;
     width: auto;
 }
+div.cd-dropdown-wrapper {
+    display:inline;
+}
 
 div.logo {
     max-width: auto/*80%*/;
