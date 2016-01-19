@@ -10,10 +10,9 @@ ul.tumbleBar li {
 div.logo {
     max-width: auto/*80%*/;
     height: 13%;
-    /*display: inline;/*
     position: absolute;
     bottom: 86%;
-    left: 19%;*/
+    left: 19%;
 }
 
 
