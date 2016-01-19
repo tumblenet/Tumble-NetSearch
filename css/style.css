@@ -6,7 +6,7 @@ img.logo {
 div.logo {
     max-width: auto/*80%*/;
     height: 13%;
-    float: left;/*
+    display: inline;/*
     position: absolute;
     bottom: 86%;
     left: 19%;*/
