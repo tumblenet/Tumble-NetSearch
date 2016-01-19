@@ -1,19 +1,1 @@
-img.logo {
-    max-height: 100%;
-    width: auto;
-}
 
-div.logo {
-    max-width: auto/*80%*/;
-    height: 13%;
-    position: absolute;
-    bottom: 86%;
-    left: 19%;
-}
-
-
-@media only screen and (max-width: 768px) {
-div.logo {
-    position: relative;
-    
-}
