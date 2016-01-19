@@ -1,5 +1,5 @@
 div.logo {
-    position: absolute;
-    top: 10px;
+    -webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
     
 }
