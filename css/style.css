@@ -1,5 +1,6 @@
 img.logo {
     max-height: 100%;
+    width: auto;
 }
 
 div.logo {
@@ -16,5 +17,4 @@ div.logo {
 div.logo {
     position: relative;
     
-}
 }
