@@ -1,6 +1,6 @@
 img.logo {
     max-width: 100%;
-    height: auto;
+    max-height: 42;
 }
 
 div.logo {
