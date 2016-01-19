@@ -3,3 +3,11 @@ div.logo {
     bottom: 60px;
     
 }
+
+@media only screen and (max-width: 768px) {
+div.logo {
+    position: relative;
+    top: 60px;
+    
+}
+}
