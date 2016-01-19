@@ -3,8 +3,9 @@ img.logo {
 
 div.logo {
     background-color: #000;
-    width: 66%;
+    width: 75%;
     position: relative;
+    left: 25;
     
 }
 
