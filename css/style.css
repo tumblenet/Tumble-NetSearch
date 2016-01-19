@@ -1,5 +1,4 @@
 div.logo {
-    -webkit-align-self: center; /* Safari 7.0+ */
-    align-self: center;
+    top: 20px;
     
 }
