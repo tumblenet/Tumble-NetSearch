@@ -1,3 +1,7 @@
 div.logo {
     width: 100%;
 }
+
+div.logo img {
+    align: center;
+}
