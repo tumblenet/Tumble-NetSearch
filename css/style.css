@@ -4,6 +4,7 @@ img.logo {
 div.logo {
     background-color: #000;
     width: 80%;
+    height: 20%;
     position: absolute;
     top: inherit;
     left: 19%;
