@@ -1,19 +1,15 @@
 img.logo {
-    width: auto;
-    max-height: 42;
 }
 
 div.logo {
+    background-color: #000;
     position: relative;
-    bottom: 60px;
-    left: 20px;
     
 }
 
 @media only screen and (max-width: 768px) {
 div.logo {
     position: relative;
-    top: 60px;
     
 }
 }
