@@ -3,4 +3,6 @@ $(document).ready(function() {
     var id = $(".import").attr("id");
     alert(url + id);
     $("#" + id).load(url);
+    delete url;
+    delete id;
 });
