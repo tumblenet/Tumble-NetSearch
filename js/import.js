@@ -1,4 +1,6 @@
 $(document).ready(function() {
-    alert($(".import").attr("title"));
-    $(".import").load($(".import").text());
+    var url = $(".import").attr("title");
+    var id = $(".import").attr("id");
+    alert(url));
+    //$("#" + id).load(url);
 });
