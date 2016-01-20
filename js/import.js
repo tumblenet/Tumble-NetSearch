@@ -1,4 +1,4 @@
 //$(document).ready(function() {
-    alert( (".import").getAttribute("title") );
+    alert( "Hello world"/*(".import").getAttribute("title")*/ );
     //$(".import[title=" + url + "]").load($(".import").getAttribute("title"););
 //});
