@@ -1,4 +1,5 @@
 //$(document).ready(function() {
-    alert('(".import").getAttribute("title")');
+    var url = "cheese";
+    alert(url);
     //$(".import[title=" + url + "]").load($(".import").getAttribute("title'););
 //});
