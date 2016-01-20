@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    var url = $(".import").getAttribute("title");
-    alert(url);
-    $(".import[title=" + url + "]").load(url);
+    alert$(".import").getAttribute("title"));
+    $(".import[title=" + url + "]").load($(".import").getAttribute("title"););
 });
