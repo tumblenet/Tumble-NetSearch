@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    alert($("#w3s").attr("href"));
+    alert($(".import").attr("title"));
     $(".import").load($(".import").text());
 });
