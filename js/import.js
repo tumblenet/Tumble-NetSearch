@@ -5,5 +5,5 @@ $(".import").load(function() {
     var id = $(this).attr("id");
     alert(id);
     var url = $(this).attr("href");
-    $("#" + id).load(.attr("href"));
+    $("#" + id).load(html);
 });
