@@ -1,6 +1,7 @@
 $(document).ready(function() {
-      var url = $(".import").attr("title");
-      var id = $(".import").attr("id");
+      $(".import").each(function( index ) {
+      var url = $(this).attr("title");
+      var id = $(this + "+[href]").attr("id");
       alert(url + id);
-      $("#" + id).load(url);
+      $("[href").load(url);
   });
