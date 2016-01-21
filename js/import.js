@@ -1,9 +1,6 @@
-/*var id = $(".import").attr("id");
-var url = $(".import").attr("href");
-$("#" + id + " ,").load(.attr("href"));*/
-$(".import+[href]").load(function() {
-    var id = $(this).attr("id");
-    alert(id);
-    var url = $(this).attr("href");
-    $(this).load(html);
-});
+$(document).ready(function() {
+      var url = $(".import").attr("title");
+ +    var id = $(".import").attr("id");
+      alert(url + id);
+      $("#" + id).load(url);
+  });
