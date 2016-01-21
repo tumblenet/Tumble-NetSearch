@@ -1,3 +1,6 @@
 ul.about-logo li {
  display: inline;
 }
+* {
+ font-family: Droid-Serif;
+}
