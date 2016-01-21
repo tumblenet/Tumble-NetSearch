@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
     /*var id = $(".import").attr("id");
     var url = $(".import").attr("href");
     $("#" + id + " ,").load(.attr("href"));*/
