@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    var url = $(this).attr("href");
-    var id = $(this).attr("id");
-    $(this).load(url);
     
    if (document.querySelectorAll)
         var clsElements = document.querySelectorAll(".import");
