@@ -1,8 +1,5 @@
-$(document).ready(function() {
-    var url = $(".import").attr("href");
-    var id = $(".import").attr("id");
-    alert(url + id);
-    $("#" + id).load(url);
-    delete url;
-    delete id;
+$(document).ready(function($(".import")) {
+    var url = $(this).attr("href");
+    var id = $(this).attr("id");
+    $(this).load(url);
 });
