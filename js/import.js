@@ -5,3 +5,7 @@ $(document).ready(function() {
    
     //alert(id);
     $(.import).load($(this).attr("href"));
+    
+    function getURL(element e) {
+        $(this.e).attr("href")
+    }
