@@ -2,8 +2,13 @@
 var url = $(".import").attr("href");
 $("#" + id + " ,").load(.attr("href"));*/
 
-loadURL($(".import").attr("id"), $(".import").attr("href"));
+$(function() {
+    $(.import).attr("id").getURL(id);
+});
 
-function loadURL(id, url) {
-    $(".import, #" + id).load(url));
-}
+$( "#import" ).load(function() {
+    var id = $(this).attr("id");
+    alert(id;)
+    var url = $(this).attr("href");
+    $("#" + id).load(.attr("href"));
+});
