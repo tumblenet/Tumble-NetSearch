@@ -1,3 +1,7 @@
-ul.about-logo {
- display:inline;
+ul.about-logo li {
+ display: inline;
+}
+
+li.search.box {
+ width: 5px;
 }
