@@ -4,4 +4,4 @@ $(document).ready(function() {
     //var url = $(.import).attr("href");
    
     //alert(id);
-    $(.import).load($(.import).attr("href"));
+    $(.import).load($(this).attr("href"));
