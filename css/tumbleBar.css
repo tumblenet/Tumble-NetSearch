@@ -4,6 +4,8 @@
 Primary style
 
 -------------------------------- */
+
+header {
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -1000,4 +1002,5 @@ header {
 
 .no-js .cd-dropdown-wrapper .cd-close {
   display: none;
+}
 }
