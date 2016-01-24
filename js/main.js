@@ -1,4 +1,11 @@
 jQuery(document).ready(function(){
+	$('.cd-search').submit(function(e){
+		 e.preventDefault();
+   		var search = $('.nice_search').val();
+   		var url = $(this).attr('action');
+		  //alert('search='+search+ ' url='+url);
+		   window.location.href = url+search;
+	});
 	//open/close mega-navigation
 	$('.cd-dropdown-trigger').on('click', function(event){
 		event.preventDefault();
