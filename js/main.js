@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
 	$('.cd-search').submit(function(e){
 		 e.preventDefault();
    		var search = $('.nice_search').val();
-   		var url = $(this).attr('action');
+	   		var url = "http://search.tumblenet.tk/web?s=";
 		  //alert('search='+search+ ' url='+url);
 		   window.location.href = url+search;
 	});
