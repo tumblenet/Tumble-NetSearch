@@ -6,7 +6,7 @@ rvm:
 before_install:
  - bundle install --gemfile=.travis.gemfile
  - bundle lock --lockfile=.travis.gemfile.lock --add-platform ruby
- - bundle lock --lockfile=.travis.gemfile --add-platform x86_64-linux
+ - bundle lock --lockfile=.travis.gemfile.lock --add-platform x86_64-linux
 
 install:
   # Bundler downgrade should be removed when the issue is fixed upstream
