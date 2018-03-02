@@ -1,12 +1,7 @@
 language: ruby
 rvm:
 #- 2.1.0
-#- 2.4
-# - 1.9.3
-# - 2.2.0
-
-before_install:
-# - rm Gemfile.lock
+- 2.4
 
 install:
   # Bundler downgrade should be removed when the issue is fixed upstream
