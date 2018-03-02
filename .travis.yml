@@ -23,7 +23,7 @@ before_script:
 script: ./script/cibuild
 
 gemfile:
- - Gemfile
+ #- Gemfile
  - gemfiles/travis.gemfile
 
 # branch whitelist, only for GitHub Pages
