@@ -1,2 +1,2 @@
 # TumbleNet Search
-[![Build Status](https://travis-ci.org/tumblenet/Tumble-NetSearch.svg?branch=gh-pages)](https://travis-ci.org/tumblenet/Tumble-NetSearch)
+[![Build Status](https://travis-ci.org/tumblenet/Tumble-NetSearch.svg)](https://travis-ci.org/tumblenet/Tumble-NetSearch)
