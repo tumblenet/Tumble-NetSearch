@@ -39,14 +39,14 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: page
+      layout: none
       categories: []
       author: ""
   - scope:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: none
       categories: []
       tags: []
       author: ""
