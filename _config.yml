@@ -1,0 +1,69 @@
+title: Tumble NetSearch
+description: >
+  Please add a description
+baseurl: ""
+url: "http://search.tumblenet.ga"
+repository: tumblenet/Tumble-NetSearch
+
+# logo:
+
+#webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+
+permalink: pretty
+production: true
+
+#collections:
+
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
+   - jekyll-seo-tag
+
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /favicon.gif
+      layout: basic
+      featured: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      categories: []
+      author: ""
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      categories: []
+      tags: []
+      author: ""
+      excerpt: >
+      image:
+
+# Build settings
+markdown: kramdown
+# theme: minima
+excludes:
+  - lib
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - bower.json
+  - "*.sh"
+  - README.md
+  - gulffile.js
+  - package.json
+  - vendor
