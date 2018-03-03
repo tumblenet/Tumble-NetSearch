@@ -9,6 +9,6 @@ layout: none
 {% endfor %}
 
 # Site Documents
-{% for document in site.documents %}
-[{{ document.title }}]({{site.url}}{{ document.url }})
+{% for doc in site.documents %}
+{{[{{ doc.title }}]({{ site.url }}{{ doc.url }})}}
 {% endfor %}
