@@ -1,6 +1,13 @@
 ---
-- name: Search
+- name: Home
   href: "/"
-- name: Hub
-  href: "http://tumblenet.ga"
-  external: true
+- name: Grid Test
+  href: "/grid/"
+- name: Align Test
+  href: "/align/"
+- name: Colors Test
+  href: "/colors/"
+- name: Hiding Test
+  href: "/hiding/"
+- name: Tables
+  href: "/tables/"
