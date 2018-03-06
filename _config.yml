@@ -5,6 +5,7 @@ baseurl: ""
 url: "http://search.tumblenet.ga"
 repository: tumblenet/Tumble-NetSearch
 
+gcse: 013719652570820795841:uezdblbjonc
 css:
   url: "http://github.tumblenet.ga/tumblenet-css"
 
