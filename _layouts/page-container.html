@@ -1,0 +1,14 @@
+---
+layout: container
+---
+  <div class="tn-page">
+    {% if page.title %}
+    <div class="tn-page-header">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="tn-separator"></div>
+    {% endif %}
+    <div class="tn-page-body">
+      {{ content }}
+    </div>
+  </div>
