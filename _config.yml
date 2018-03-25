@@ -1,9 +1,12 @@
 title: Tumble NetSearch
 description: >
-  Please add a description
+  Search the Tumble Network
 baseurl: ""
 url: "http://search.tumblenet.ga"
 repository: tumblenet/Tumble-NetSearch
+
+network:
+  title: Tumble Network
 
 gcse: 013719652570820795841:uezdblbjonc
 css:
@@ -23,14 +26,23 @@ production: true
 #collections:
 
 plugins:
-   - jekyll-mentions
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-feed
-   - jekyll-seo-tag
-
-
+ - jekyll-coffeescript
+ - jekyll-gist
+ - jekyll-github-metadata
+ - jekyll-paginate
+ - jekyll-relative-links
+ - jekyll-optional-front-matter
+ - jekyll-readme-index
+ - jekyll-default-layout
+ - jekyll-titles-from-headings
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+# - jekyll-include-cache
 
 defaults:
   - scope:
@@ -65,7 +77,7 @@ kramdown:
   # Enable GitHub Flavored Markdown (fenced code blocks)
   input: GFM
   # Disable auto-generated ID's for headings
-  auto_ids: false
+  auto_ids: true
 
 
 excludes:

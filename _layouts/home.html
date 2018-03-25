@@ -3,10 +3,11 @@ layout: container
 hide-title: true
 ---
 <div class="tn-text-align-center" style="margin-top:59px">
+  <a href="http://tumblenet.ga" data-hveid="4">
+    <img width="572" height="220" title="TumbleNetwork" style="padding-top: 0px;" onload="window.lol&amp;&amp;lol()" alt="Tumble Network logos" src="{{ site.url }}/img/TumbleNet.png" border="0"></img>
+  </a>
+  <br><br>
   <form name="f" class="tsf" id="tsf" role="search" onsubmit="return q.value!=''" action="/search" method="GET">
-    <a href="http://tumblenet.ga" data-hveid="4">
-      <img width="572" height="220" title="TumbleNetwork" style="padding-top: 0px;" onload="window.lol&amp;&amp;lol()" alt="Tumble Network logos" src="{{ site.url }}/img/TumbleNet.png" border="0"></img>
-    </a>
     <div class="gstl_0 sbib_a" style="height: 44px;">
       <div id="gs_lc0" style="position: relative;">
         <input name="q" title="Search" class="gsfi" id="lst-ib" role="combobox" aria-haspopup="false" style="margin: 0px; padding: 0px 1px; border: currentColor; border-image: none; left: 0px; width: 100%; height: auto; position: absolute; z-index: 6;" dir="ltr" spellcheck="false" aria-autocomplete="list" aria-label="Search" type="text" maxlength="2048" value="" autocomplete="off">
@@ -16,9 +17,10 @@ hide-title: true
         <input disabled="" class="gsfi" id="gs_htif0" aria-hidden="true" style="margin: 0px; padding: 0px 1px; border: currentColor; transition:0.218s; border-image: none; left: 0px; width: 100%; height: auto; text-align: left; color: silver; position: absolute; z-index: 1; opacity: 0; background-color: transparent;" dir="ltr" autocomplete="off"> -->
       </div>
     </div>
-    <center>
-      <input class="tn-btn tn-element-color-main-red tn-element-color-onhover-main-red-dark1" name="btnK" aria-label="TumbleNet Search" type="submit" value="TumbleNet Search" jsaction="sf.chk">
-      <!-- <input name="btnI" aria-label="I'm Feeling Lucky" type="submit" value="I'm Feeling Lucky" jsaction="sf.lck"> -->
-    </center>
+    <input class="tn-btn tn-element-color-main-red tn-element-color-onhover-main-red-dark1" name="btnK" aria-label="TumbleNet Search" type="submit" value="TumbleNet Search" jsaction="sf.chk">
+    <!-- <input name="btnI" aria-label="I'm Feeling Lucky" type="submit" value="I'm Feeling Lucky" jsaction="sf.lck"> -->
   </form>
+  <div class="tumblenetsearch-text-promotion" style="margin-top: 50px;">
+    {{ content }}
+  </div>
 </div>
