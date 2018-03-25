@@ -3,7 +3,7 @@ layout: page-container
 title: About this Project
 ---
 Version:
-[![GitHub release](https://img.shields.io/github/release/tumblenet/Tumble-NetSearch.svg?style=flat-square)](https://github.com/tumblenet/Tumble-NetSearch/releases/latest)
+[![GitHub release](http://img.shields.io/github/release/tumblenet/Tumble-NetSearch.svg?style=flat-square)](https://github.com/tumblenet/Tumble-NetSearch/releases/latest)
 * [Report Bugs](https://github.com/tumblegamer/Tumble-NetSearch/issues/new)
 
 
