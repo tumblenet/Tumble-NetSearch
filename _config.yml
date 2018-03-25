@@ -1,0 +1,96 @@
+title: Tumble NetSearch
+description: >
+  Search the Tumble Network
+baseurl: ""
+url: "http://search.tumblenet.ga"
+repository: tumblenet/Tumble-NetSearch
+
+network:
+  title: Tumble Network
+
+gcse: 013719652570820795841:uezdblbjonc
+css:
+  url: "http://github.tumblenet.ga/tumblenet-css"
+
+# logo:
+
+#webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+
+permalink: pretty
+production: true
+
+#collections:
+
+plugins:
+ - jekyll-coffeescript
+ - jekyll-gist
+ - jekyll-github-metadata
+ - jekyll-paginate
+ - jekyll-relative-links
+ - jekyll-optional-front-matter
+ - jekyll-readme-index
+ - jekyll-default-layout
+ - jekyll-titles-from-headings
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+# - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /favicon.gif
+      layout: basic
+      featured: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: none
+      categories: []
+      author: ""
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: none
+      categories: []
+      tags: []
+      author: ""
+      excerpt: >
+      image:
+
+# Build settings
+markdown: kramdown
+# theme: minima
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: true
+
+
+excludes:
+  - lib
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - bower.json
+  - "*.sh"
+  - README.md
+  - gulffile.js
+  - package.json
+  - vendor
+  - ".gitignore"
+  - CNAME
+  - icomoon-selection.json

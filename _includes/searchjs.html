@@ -1,0 +1,25 @@
+<script>
+  $(function() {
+    {% capture search %}{% include search.html %}{% endcapture %}
+    {% capture searchbox %}{% include searchbox.html %}{% endcapture %}
+    {% capture searchboxOnly %}{% include searchbox-only.html %}{% endcapture %}
+    {% capture searchresults %}{% include searchresults.html %}{% endcapture %}
+    {% capture searchresultsOnly %}{% include searchresults-only.html %}{% endcapture %}
+
+    $( "search" ).replaceWith("{{ search | strip_newlines }}");
+    $( "searchbox" ).replaceWith("{{ searchbox | strip_newlines }}");
+    $( "searchbox-only" ).replaceWith("{{ searchboxOnly | strip_newlines }}");
+    $( "searchresults" ).replaceWith("{{ searchresults | strip_newlines }}");
+    $( "searchresults-only" ).replaceWith("{{ searchresultsOnly | strip_newlines }}");
+
+    var cx = '{{site.gcse}}';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+
+</script>
