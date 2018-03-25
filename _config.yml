@@ -2,7 +2,7 @@ title: Tumble NetSearch
 description: >
   Search the Tumble Network
 baseurl: ""
-url: "http://search.tumblenet.ga"
+url: "https://search.tumblenet.ga"
 repository: tumblenet/Tumble-NetSearch
 
 network:
