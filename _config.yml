@@ -10,7 +10,7 @@ network:
 
 gcse: 013719652570820795841:uezdblbjonc
 css:
-  url: "http://github.tumblenet.ga/tumblenet-css"
+  url: "https://cdn.rawgit.com/tumblenet/tumblenet-css/master"
 
 # logo:
 
