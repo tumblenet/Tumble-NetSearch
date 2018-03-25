@@ -94,3 +94,4 @@ excludes:
   - ".gitignore"
   - CNAME
   - icomoon-selection.json
+  - all.md
